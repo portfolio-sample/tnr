@@ -160,6 +160,9 @@ header{
     background-repeat: no-repeat;
     vertical-align: middle;
   }
+  .header-support{
+    justify-content: flex-end;
+  }
   .header-support-btn{
     background-color: #BD8A5A;
     border-radius: 5px;
@@ -369,7 +372,7 @@ header{
 }
 .contents-btn{
   display: inline-block;
-  border: solid;
+  border: solid #666666;
   padding: 10px 40px;
   border-radius: 5px;
   color: #333333;
